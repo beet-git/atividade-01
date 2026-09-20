@@ -1,0 +1,18 @@
+services:
+  mvc:
+    build: ./projeto-mvc
+    ports:
+      - "8092:8092"
+
+  api:
+    build: ./projeto-api
+    ports:
+      - "8093:8093"
+
+  react:
+    build: ./projeto-react
+    ports:
+      - "5173:5173"
+    depends_on:
+      - api
+

@@ -1,0 +1,7 @@
+projeto-mvc/vendor/
+projeto-mvc/node_modules/
+projeto-mvc/.env
+projeto-mvc/database/database.sqlite
+projeto-api/node_modules/
+projeto-react/node_modules/
+projeto-mvc/temp/
